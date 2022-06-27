@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'BluuTitling';
+  src: url("../src/assets/fonts/bluunext-titling.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 
+@font-face {
+  font-family: 'BluuTitling';
+  src: url("../public/assets/fonts/bluunext-titling") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url("../public/assets/fonts/CormorantGaramond-Bold") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url("../public/assets/fonts/CormorantGaramond-BoldItalic") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url("../public/assets/fonts/CormorantGaramond-Medium") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url("../public/assets/fonts/CormorantGaramond-MediumItalic") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  margin: 0;
+  background-color: #f5e4bc;
 }
