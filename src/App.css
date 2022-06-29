@@ -1,5 +1,5 @@
 .site-header {
-  display: block;
+  display: flex;
   overflow: hidden;
   letter-spacing: 0em;
   padding: 0.5rem 1rem;
@@ -43,3 +43,87 @@
 .site-header-name {
   margin: 0;
 }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  /* background-color: green; */
+  padding: 16px 32px;
+  /* border-bottom: 3px solidyellow; */
+}
+
+
+
+.section {
+  position: relative;
+}
+
+.spaced-h-normal {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header-text.larger-text {
+  line-height: 1.35;
+}
+
+.header-text {
+  font-family: "BluuTitling";
+  font-weight: 400;
+}
+
+.drop-cap {
+    min-width: 5.75rem;
+    min-height: 6.25rem;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border: 10px solid blue;
+}
+
+.drop-cap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0.25rem;
+  float: left;
+  font-family: "BluuTitling";
+  font-weight: 400;
+  line-height: .75;
+  font-size: 3.25rem;
+  font-style: normal;
+  border: 2px solid black;
+  padding: 0.4em 0.45em;
+  min-width: 5.5rem;
+  min-height: 6rem;
+  margin: 0 0.2em 0.075em 0;
+}
+
+.drop-cap::before {
+  width: 1px;
+  height: calc(100% - 0.1em);
+  top: 0;
+  right: 0.1em;
+}
+
+.drop-cap:after {
+  width: calc(100% - 0.1em);
+  height: 1px;
+  left: 0;
+  bottom: 0.1em;
+}
+

@@ -4,41 +4,34 @@
   font-weight: normal;
   font-style: normal;
 }
-/* 
+
 @font-face {
-  font-family: 'BluuTitling';
-  src: url("../public/assets/fonts/bluunext-titling") format("woff2");
+  font-family: 'CormorantGaramond';
+  src: url("../src/assets/fonts/CormorantGaramond-Bold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CormorantGaramond';
-  src: url("../public/assets/fonts/CormorantGaramond-Bold") format("woff2");
-  font-weight: normal;
+  src: url("../src/assets/fonts/CormorantGaramond-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url("../src/assets/fonts/CormorantGaramond-Medium.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CormorantGaramond';
-  src: url("../public/assets/fonts/CormorantGaramond-BoldItalic") format("woff2");
+  src: url("../src/assets/fonts/CormorantGaramond-MediumItalic.woff2") format("woff2");
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
 }
-
-@font-face {
-  font-family: 'CormorantGaramond';
-  src: url("../public/assets/fonts/CormorantGaramond-Medium") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'CormorantGaramond';
-  src: url("../public/assets/fonts/CormorantGaramond-MediumItalic") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-} */
 
 body {
   margin: 0;
